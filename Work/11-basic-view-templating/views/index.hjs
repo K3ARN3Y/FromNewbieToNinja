@@ -1,0 +1,10 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="/css/main.css">
+	</head>
+	<body>
+		{{> header}}
+		{{> tweets}}
+		<script src="/js/main.js"></script>
+	</body>
+</html>

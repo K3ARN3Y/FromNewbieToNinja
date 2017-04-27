@@ -1,0 +1,19 @@
+{
+  "name": "05-npm-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app",
+    "pretest": "echo starting tests",
+    "test": "node test",
+    "posttest": "echo finishing tests",
+    "test-watch": "nodemon test"
+  },
+  "author": "",
+  "license": "ISC"
+}
